@@ -1,0 +1,33 @@
+site_name: Pawan Singh
+site_description: A short article about Pawan Singh
+site_author: Pawan Singh
+site_url: https://example.com  # Replace with your actual URL if hosted
+
+nav:
+  - Home: index.md
+
+theme:
+  name: material  # You can use 'mkdocs' or another theme if you prefer
+  language: en
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername  # Optional
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/yourprofile  # Optional
+
+# Optional: if deploying to GitHub Pages
+# plugins:
+#   - search
+#   - mkdocs-material
+#   - mkdocs-git-revision-date-localized-plugin
